@@ -1,14 +1,19 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Products
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+ 
+  <ion-card *ngFor="let product of products">
+    <ion-card-content>
+        <h2>Product ID: {{product.productId}}</h2>
+        <h2>Product Name: {{product.productName}}</h2>
+        <h2>Product Price: {{product.price}} $</h2>
+    </ion-card-content>
+  </ion-card>
+  
 </ion-content>
