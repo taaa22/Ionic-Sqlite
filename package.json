@@ -1,8 +1,8 @@
 {
   "name": "ReadSqliteDB",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "version": "1.0.0",
+  "author": "Tariq Al Sulaimani",
+  "homepage": "http://cinnamon.om/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -35,5 +35,5 @@
     "@ionic/app-scripts": "3.1.9",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "Read existing SQLite database file and load data"
 }
