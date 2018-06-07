@@ -1,11 +1,12 @@
 # Ionic-Sqlite
 Read existing SQLite database file and load data.
 
-## Installation instructions:
-  1. Download the project.
-  2. Then extart the project file.
-  3. cd to the main file.
-  4. run (ionic install) command.
+## Installation:
+  ```
+  git clone https://github.com/taaa22/Ionic-Sqlite.git
+  cd Ionic-Sqlite/
+  npm install
+  ```
   
 ## How it works:
   1. Copy sql.js file from (https://github.com/kripken/sql.js/) to www folder.
